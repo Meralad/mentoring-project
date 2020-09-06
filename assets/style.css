@@ -1,31 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
+html, body {
+    height: 100%;
 }
-nav{
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header,
+.main,
+.footer {
+    display: flex;
+    width: 100%;
+}
+
+/* глобальные настройки над html документом, единый цвет шрифта, отступы, фоновый цвет, картинка на background */
+
+/* nav{
     padding: 92px 410px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #ffffff;
-}
-
-.Leo shop {
-    color: #656565;
-    text-transform: uppercase;
-    font-size: 30px;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-around;
-    text-transform: uppercase;
-    width: 45%;
-}
-.nav-links li {
-    list-style: none;
+  
 }
 
 .nav-links a {
@@ -39,8 +37,7 @@ nav{
     -o-transition: linear .3s;
 }
 
-.nav-links a:hover {
-    border-bottom: 2px solid #4cb1ca;
+.nav-links 
 }
 .burger {
     cursor: pointer;
@@ -55,4 +52,4 @@ nav{
 header{
     width: 100%;
     background: #4cb1ca;
-}
+} */

@@ -3,35 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hometask progect</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <title>Hometask progect</title>    
     <link rel="stylesheet" href="./assets/normalize.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
-    <header class="header">header</header>
-    <ul class="">
-        <li class="li"><a href="#">Language: English</a></li>
-        <li class="li"><a href="#">Currency: USD</a></li>
-        <li class="li"><a href="#">Account</a></li>
-        <li class="li"><a href="#">Wishlist</a></li>
-        <li class="li"><a href="#">Checkout</a></li>
-        <li class="li"><a href="#">Log in</a></li>
-        <li class="li"><a href="#">Sign up</a></li>
-    </ul>
-        <nav>
-            <div class="leo shop">
-                <h4>Leo shop</h4>
+    <header class="header">
+        <div class="header__top-menu">
+            <div class="top-menu__default-setting">
+                <div class="default-setting__language">
+                    Language: <select name="" id="">
+                                <option value="en">English</option>
+                                <option value="ru">Russian</option>
+                              </select>
+                </div>
+                <div class="default-setting__currency">
+                    Currency: 
+                    <select name="" id="">
+                        <option value="en">USD</option>
+                        <option value="ru">BYN</option>
+                      </select>
+                </div>
             </div>
-                <ul class="nav-links">
-                    <li class="li"><a href="#">Home</a></li>
-                    <li class="li"><a href="#">Women</a></li>
-                    <li class="li"><a href="#">Men</a></li>
-                    <li class="li"><a href="#">Other</a></li>
-                    <li class="li"><a href="#">Purchase</a></li>
+            <nav class="top-menu__nav">
+                <ul class="nav__menu">
+                    <li class="li"><a href="#">Account</a></li>
+                    <li class="li"><a href="#">Wishlist</a></li>
+                    <li class="li"><a href="#">Checkout</a></li>
+                    <li class="li"><a href="#">Log in</a></li>
+                    <li class="li"><a href="#">Sign up</a></li>
                 </ul>
-        </nav>
+            </nav>
+        </div>
+        <div class="header__main-menu">
+            <div class="main-menu">
+                <div class="main-menu__logo">
+                    <h1>leo shop</h1>
+                </div> 
+                    <nav class="main-menu__menu">
+                        <ul class="menu__links">
+                            <li class="li"><a href="#">Home</a></li>
+                            <li class="li"><a href="#">Women</a></li>
+                            <li class="li"><a href="#">Men</a></li>
+                            <li class="li"><a href="#">Other</a></li>
+                            <li class="li"><a href="#">Purchase</a></li>
+                        </ul>
+                    </nav>
+            
+                <div class="main-menu__basket">
+                <div class="basket__search"></div>
+                <div class="basket__basket-info"></div>
+            </div>
+        </div>
+    </header>
 
-    <main class="main">main</main>
+
+    
+        
+               
+        
+
+    <main class="main">
+        <!-- <section class="main__banner">
+
+        </section>
+        <section class="main__content">
+            <div class="content__caption"></div>
+            <div class="content__products">
+                <div class="products-item">
+                    <img src="../images/glasses-1.jpg" alt="">
+                </div>
+                <div class="products-item">
+                    <img src="./images/glasses-2.jpg" alt="">
+                </div>
+                <div class="products-item">
+                    <img src="./images/glasses-3.jpg" alt="">
+                </div>
+                <div class="products-item">
+                    <img src="./images/glasses-4.jpg" alt="">
+                </div>
+                <div class="products-item">
+                    <img src="./images/glasses-5.jpg" alt="">
+                </div>
+                <div class="products-item">
+                    <img src="./images/glasses-6.jpg" alt="">
+                </div>
+            </div>
+        </section> -->
+    </main>
     <footer class="footer">footer</footer>
 </body>
 </html>
+
+<!-- ctrl + / -->
