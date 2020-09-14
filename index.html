@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <header class="header">
@@ -18,14 +19,13 @@
                     Language: <select name="" id="">
                                 <option value="en">English</option>
                                 <option value="ru">Russian</option>
-                              </select>
+                            </select>
                 </div>
                 <div class="default-setting__currency">
-                    Currency: 
-                    <select name="" id="">
-                        <option value="en">USD</option>
-                        <option value="ru">BYN</option>
-                      </select>
+                    Currency: <select name="" id="">
+                                <option value="en">USD</option>
+                                <option value="ru">BYN</option>
+                            </select>
                 </div>
             </div>
             <nav class="top-menu__nav">
@@ -53,24 +53,30 @@
                         </ul>
                     </nav>
             
-                <div class="main-menu__basket">
-                <div class="basket__search"></div>
-                <div class="basket__basket-info"></div>
+            <div class="main-menu__basket">
+                <div class="basket__search">
+                    <input type="text" class="search-txt" placeholder="Search..">
+                    <a href="" class="search-btn"><i class="fa fa-search fa-lg" aria-hidden="true"></i></a>
             </div>
-        </div>
+                <div class="basket__greenicon1"></div>
+                    <img src="./images/carticon.png" alt="Cart icon" class="cart-icon">
+                <div class="basket__greenicon2"></div>
+                    <img src="./images/saleicon.png" alt="Sale icon" class="sale-icon">
+                        <div class="basket__search-cart">
+                            <h4>CART (0)</h4>
+                        </div>
+            </div>                    
     </header>
-
-
     
-        
-               
-        
-
     <main class="main">
-        <!-- <section class="main__banner">
+        <section class="main__banner">
+            <img src="./images/banner.jpg" alt="Banner" width="100%">
 
         </section>
-        <section class="main__content">
+        
+        
+        
+        <!-- <section class="main__content">
             <div class="content__caption"></div>
             <div class="content__products">
                 <div class="products-item">
@@ -93,9 +99,8 @@
                 </div>
             </div>
         </section> -->
-    </main>
+    <!-- </main>
     <footer class="footer">footer</footer>
 </body>
-</html>
+</html> -->
 
-<!-- ctrl + / -->

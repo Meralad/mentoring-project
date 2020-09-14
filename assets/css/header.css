@@ -19,12 +19,23 @@
 .top-menu__default-setting,
 .nav__menu {
     display: flex;
+    width: 100%;
+}
+
+select {
+    border: none;
+    background-color: #4cb1ca;
+    color: #ffffff;
+}
+
+.default-setting__currency {
+    padding-left: 20px;
 }
 
 .nav__menu {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 25px;
 }
 
 .nav__menu li {
@@ -48,7 +59,8 @@
 
 .header__main-menu {
     display: flex;
-    height: 105px;    
+    height: 105px;
+    padding: 0 190px;
 }
 
 .main-menu {
@@ -71,6 +83,7 @@
     align-items: center;
     width: 350px;
     height: 100%;
+    margin-left: 60px;
 }
 
 /* .main-menu__logo, 
@@ -106,3 +119,88 @@
     border-bottom: 2px solid #4cb1ca;
 }
 
+.main-menu__basket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket__search {
+    display: flex;
+    height: 30px;
+    /* width: 178px;  не получается растянуть( */
+    margin-left: 115px;
+}
+
+.search-btn {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 295px;
+    color: #656565;
+    text-decoration: none;
+}
+
+.basket__greenicon1 {
+    border-radius: 50%;
+    background-color: rgb(125, 177, 34);
+    position: absolute;
+    left: 80%;
+    top: 79px;
+    width: 35px;
+    height: 35px;
+    z-index: 270;
+}
+
+.cart-icon {
+    font-size: 20px;
+    color: rgb(255,255,255);
+    line-height: 1.2;
+    text-align: justify;
+    position: absolute;
+    left: 80.5%;
+    top: 88px;
+    z-index: 271;
+}
+
+.basket__greenicon2 {
+    border-radius: 50%;
+    background-color: rgb(125, 177, 34);
+    position: absolute;
+    left: 77%;
+    top: 79px;
+    width: 35px;
+    height: 35px;
+    z-index: 268;     
+}
+
+.sale-icon {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: justify;
+    position: absolute;
+    left: 77.6%;
+    top: 88px;
+    z-index: 269;
+}
+
+.basket__search-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    width: inherit;
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 83.5%;
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(101, 101, 101);
+    font-weight: bold;
+}
