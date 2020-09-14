@@ -1,0 +1,28 @@
+
+#layer1 {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    text-align: left;
+    position: absolute;
+    left: 17%;
+    top: 51%;
+    z-index: 258;
+}
+
+#layer2 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Open Sans";
+    background: #66625a;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    text-align: left;
+    /* position: absolute; */
+    left: 17%;
+    top: 54%;
+    z-index: 258;
+}
