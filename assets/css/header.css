@@ -86,11 +86,6 @@ select {
     margin-left: 60px;
 }
 
-/* .main-menu__logo, 
-.main-menu__menu {
-    flex-grow: 1;
-} */
-
 .menu__links {
     display: flex;
     align-items: center;
@@ -123,13 +118,13 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .basket__search {
     display: flex;
     height: 30px;
-    /* width: 178px;  не получается растянуть( */
-    margin-left: 115px;
+    position: relative;
 }
 
 .search-btn {
@@ -138,69 +133,67 @@ select {
     align-items: center;
     justify-content: center;
     height: 30px;
-    width: 295px;
+    width: 30px;
     color: #656565;
     text-decoration: none;
+    right: 0;
 }
 
-.basket__greenicon1 {
+.basket__basket-group-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15px;
+    position: relative;
+}
+
+.basket-group-icon__cart {
     border-radius: 50%;
     background-color: rgb(125, 177, 34);
-    position: absolute;
-    left: 80%;
-    top: 79px;
+    position: relative;
     width: 35px;
     height: 35px;
-    z-index: 270;
 }
 
-.cart-icon {
-    font-size: 20px;
-    color: rgb(255,255,255);
-    line-height: 1.2;
-    text-align: justify;
-    position: absolute;
-    left: 80.5%;
-    top: 88px;
-    z-index: 271;
-}
-
-.basket__greenicon2 {
-    border-radius: 50%;
-    background-color: rgb(125, 177, 34);
-    position: absolute;
-    left: 77%;
-    top: 79px;
-    width: 35px;
-    height: 35px;
-    z-index: 268;     
-}
-
-.sale-icon {
-    font-size: 18px;
+.cart__icon {
+    background: url('../../images/carticon.png');
+    height: 18px;
+    width: 18px;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: justify;
     position: absolute;
-    left: 77.6%;
-    top: 88px;
-    z-index: 269;
+    left: 30px;
+    top: 8px;
+    
 }
 
-.basket__search-cart {
+.basket-group-icon__sale {
+    border-radius: 50%;
+    background-color: rgb(125, 177, 34);
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
+
+.sale__icon {
+    background: url('../../images/saleicon.png');
+    height: 18px;
+    width: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: justify;
+    position: absolute;
+    right: 50px;
+    top: 8px;
+    
+}
+
+.basket-group-icon__total-cart {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    text-transform: uppercase;
-    background-color: #ffffff;
-    width: inherit;
-    list-style: none;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    left: 83.5%;
-    font-size: 13px;
-    font-family: "Open Sans";
-    color: rgb(101, 101, 101);
+    margin-left: 15px;
+    color: #656565;
     font-weight: bold;
 }
