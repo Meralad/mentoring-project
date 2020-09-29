@@ -1,4 +1,9 @@
 
+.main {
+    width: 100%;
+    flex-direction: column;
+}
+
 .main__banner {
     display: flex;
     align-items: center;
@@ -91,25 +96,28 @@
     font-family: "FontAwesome";
     color: rgb(205, 205, 205);
     line-height: 1.2;
-    position: absolute;
+    position: relative;
 }
 
 .main__content {
     padding: 0 190px;
-    position: absolute;
-    height: 705px;
-    top: 675px;
+    width: 55%;
+    margin-top: 50px;
 }
+
+.content__caption {
+    margin-bottom: 25px;
+}
+
 
 .content__products {
-    /* height: 320px; */
-    background-color: #eff1f0;
+   display: flex;
+   flex-wrap: wrap;
+   height: 705px;
 }
 
-.products-item {
-    display: inline-block;
-    height: 320px;
-    background-color: inherit;
-    
-    
+.products-item img {
+    background: #eff1f0;
+    /* border: 3px solid black; */
+    background-size: 220px 230px;
 }

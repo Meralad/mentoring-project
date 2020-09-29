@@ -150,20 +150,19 @@ select {
 .basket-group-icon__cart {
     border-radius: 50%;
     background-color: rgb(125, 177, 34);
-    position: relative;
     width: 35px;
     height: 35px;
 }
 
 .cart__icon {
     background: url('../../images/carticon.png');
-    height: 18px;
+    height: 17px;
     width: 18px;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: justify;
     position: absolute;
-    left: 30px;
+    left: 47px;
     top: 8px;
     
 }
@@ -171,7 +170,6 @@ select {
 .basket-group-icon__sale {
     border-radius: 50%;
     background-color: rgb(125, 177, 34);
-    position: relative;
     width: 35px;
     height: 35px;
     margin-left: 5px;
@@ -179,13 +177,13 @@ select {
 
 .sale__icon {
     background: url('../../images/saleicon.png');
-    height: 18px;
+    height: 17px;
     width: 18px;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: justify;
     position: absolute;
-    right: 50px;
+    left: 8px;
     top: 8px;
     
 }
