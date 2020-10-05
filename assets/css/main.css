@@ -19,7 +19,6 @@
     font-size: 30px;
     font-family: "Open Sans";
     color: rgb(255, 255, 255);
-    line-height: 1.667;
 }
       
 .layer1 {
@@ -31,7 +30,6 @@
     font-family: "Open Sans";
     background-color: rgba(76, 76, 68, 0.7);
     color: rgb(255, 255, 255);
-    line-height: 1.667;
     text-align: left;
     height: 50px;
     width: 285px;
@@ -48,7 +46,6 @@
     background-color: rgba(76, 76, 68, 0.7);
     height: 50px;
     color: rgb(255, 255, 255);
-    line-height: 1.667;
     width: 330px;
 }
 
@@ -68,7 +65,8 @@
     left: 121px;
     top: 353px;
     width: 67px;
-    height: 67px;   
+    height: 67px;
+    color: #cdcdcd;
 }
 
 .nav-group-icon__right {
@@ -82,42 +80,97 @@
     top: 360px;
     width: 67px;
     height: 67px;
+    color: #cdcdcd;
 }
 
 .fa.fa-angel-left {
     font-family: "FontAwesome";
     color: rgb(205, 205, 205);
-    line-height: 1.2;
     position: absolute;
 }
 
 .fa.fa-angel-right {
-    font-size: 55px;
     font-family: "FontAwesome";
     color: rgb(205, 205, 205);
-    line-height: 1.2;
-    position: relative;
+    position: absolute;
 }
 
 .main__content {
-    padding: 0 190px;
-    width: 55%;
     margin-top: 50px;
+    padding: 0 190px;
 }
 
 .content__caption {
-    margin-bottom: 25px;
+    font-size: 22px;
+    font-family: "Open Sans";
+    color: rgb(99, 95, 87);
+    padding-bottom: 25px;
 }
 
 
 .content__products {
    display: flex;
    flex-wrap: wrap;
-   height: 705px;
+    
 }
 
-.products-item img {
+.products-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: calc(100% / 4 - 30px);
+    border: 8px solid #ffffff;
+    box-shadow: 0px 0px 5px 1px rgb(238, 238, 238);   
+}
+
+.products-item:nth-child(4n) {
+    margin-right: 0;
+    width: calc(100% / 4);
+}
+
+.item__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #eff1f0;
-    /* border: 3px solid black; */
-    background-size: 220px 230px;
+    height: 220px;   
+}
+
+.item__desc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc__item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.item__name {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    color: #69666a;
+}
+
+.item__cost {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #7db122;
+}
+
+.buy__icon {
+    border-radius: 50%;
+    background-color: rgb(125, 177, 34);
+    width: 40px;
+    height: 40px;
+}
+
+.fa.fa-shopping-basket {
+    font-family: "FontAwesome";
+    color: #ffffff;
+    position: absolute;
+    transform: translate(11px, 11px);
 }

@@ -154,17 +154,14 @@ select {
     height: 35px;
 }
 
-.cart__icon {
-    background: url('../../images/carticon.png');
+.sale__icon {
+    background: url('../../images/saleicon.png');
     height: 17px;
     width: 18px;
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: justify;
     position: absolute;
-    left: 47px;
-    top: 8px;
-    
+    top: 50%;
+    left: 12%;
+    transform: translate(-51%, -50%);  
 }
 
 .basket-group-icon__sale {
@@ -175,17 +172,14 @@ select {
     margin-left: 5px;
 }
 
-.sale__icon {
-    background: url('../../images/saleicon.png');
+.cart__icon {
+    background: url('../../images/carticon.png');
     height: 17px;
     width: 18px;
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: justify;
     position: absolute;
-    left: 8px;
-    top: 8px;
-    
+    top: 50%;
+    left: 39%;
+    transform: translate(-51%, -50%);  
 }
 
 .basket-group-icon__total-cart {
