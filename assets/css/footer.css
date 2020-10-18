@@ -57,6 +57,48 @@
 
 .footer__main-sector {
     display: flex;
+    flex-direction: row;
     height: 340px;
     background-color: #39a0b9;
+    padding-top: 50px;
+}
+
+.main-sector__facebook {
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook-topik {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(245, 245, 245);
+}
+
+.facebook-topik-title {
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    padding: 10px 0px 0px 0px;
+}
+
+.facebook-topik-icon {
+    background-image: url('../../images/icon.jpg');
+    border-radius: 3px;
+    width: 47px;
+    height: 23px;
+    margin: 5px 0px 5px 0px;
+}
+
+.facebook-topik-icon__group {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 240px;
+    border-top: 2px solid #4cb1ca;
+    border-bottom: 2px solid #4cb1ca;
+}
+
+.facebook-topik-icon__group img {
+    flex:1 1 calc(33.33% - 30px);
+    padding: 5px 10px 5px 0px;
 }
