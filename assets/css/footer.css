@@ -96,9 +96,67 @@
     max-width: 240px;
     border-top: 2px solid #4cb1ca;
     border-bottom: 2px solid #4cb1ca;
+    padding: 5px 0px 5px 0px;
 }
 
 .facebook-topik-icon__group img {
     flex:1 1 calc(33.33% - 30px);
     padding: 5px 10px 5px 0px;
+}
+
+.main-sector__twitter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+}
+
+.twitter__content-top {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.twitter-topik {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(245, 245, 245);
+}
+
+.main-sector-icon {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 43px;
+    height: 43px;
+}
+
+.fa.fa-twitter {
+    font-size: 26px;
+    font-family: "FontAwesome";
+    color: rgb(57, 160, 185);
+    position: absolute;
+    transform: translate(10px, 10px); 
+}
+
+.main-sector-text__top {
+    display: flex;
+    margin-left: 15px;
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.twitter__content-bottom {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-sector-text__bottom {
+    display: flex;
+    margin-left: 15px;
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
 }
