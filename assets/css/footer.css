@@ -251,7 +251,42 @@
 .footer__bottom-sector {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     height: 60px;
     background-color: #0b4b5a;
     padding: 0px 175px 0px 175px;
+}
+
+.bottom-sector__copyrights {
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(138, 220, 240);
+}
+
+.nav__bottom-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav__bottom-menu li {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-right: 1px solid #ffffff;
+    border-color: rgb(138, 220, 240);
+    height: 13px;
+    
+}
+
+.nav__bottom-menu li:nth-last-child(1) {
+    border-right: 0;
+}
+
+.nav__bottom-menu li a {
+    font-size: 13px;
+    font-family: "Open Sans";    
+    color: rgb(138, 220, 240);
+    text-decoration: none;
 }
