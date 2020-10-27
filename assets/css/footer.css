@@ -55,6 +55,7 @@
 .footer__main-sector {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #39a0b9;
     padding: 50px 175px 60px 175px;
 }
@@ -148,6 +149,10 @@
     flex-direction: row;
 }
 
+.twitter-text {
+    color: #9ae2f4;
+}
+
 .main-sector-text__bottom {
     display: flex;
     margin-left: 15px;
@@ -205,6 +210,11 @@
     color: rgb(255, 255, 255);
     line-height: 1.85;
     border-bottom: 1px solid #4cb1ca;
+}
+
+.address-information a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .contact-group-icons {
