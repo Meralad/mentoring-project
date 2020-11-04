@@ -225,9 +225,18 @@
 .contact-icon {
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
-    width: 36px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
     margin: 5px 10px 0px 0px;
+}
+
+.contact-icon:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    width: 40px;
+    height: 40px;
+    background-color: #00ffff;
+    cursor: pointer;
 }
 
 .fa.fa-google-plus {
@@ -237,11 +246,21 @@
     transform: translate(10px, 9px);
 }
 
+.fa.fa-google-plus:hover {
+    transition-duration: 0.3s;
+    font-size: 21px;
+}
+
 .fa.fa-linkedin {
     font-size: 18px;
     font-family: "FontAwesome";
     color: rgb(57, 160, 185);
     transform: translate(11px, 8px);
+}
+
+.fa.fa-linkedin:hover {
+    transition-duration: 0.3s;
+    font-size: 21px;
 }
 
 .fa.fa-rss {
@@ -251,11 +270,21 @@
     transform: translate(12px, 9px);
 }
 
+.fa.fa-rss:hover {
+    transition-duration: 0.3s;
+    font-size: 21px;
+}
+
 .fa.fa-facebook {
     font-size: 18px;
     font-family: "FontAwesome";
     color: rgb(57, 160, 185);
     transform: translate(13px, 10px);
+}
+
+.fa.fa-facebook:hover {
+    transition-duration: 0.3s;
+    font-size: 21px;
 }
 
 .footer__bottom-sector {
