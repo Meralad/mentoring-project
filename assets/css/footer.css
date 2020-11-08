@@ -307,3 +307,21 @@
     color: rgb(138, 220, 240);
     text-decoration: none;
 }
+
+@media (max-width: 1400px) {
+    .body {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .body {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .body {
+        max-width: none;
+    }
+}
