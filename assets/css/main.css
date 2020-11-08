@@ -67,6 +67,12 @@
     width: 67px;
     height: 67px;
     color: #cdcdcd;
+    transition: 0.3s transform ease-in-out;
+}
+
+.nav-group-icon__left:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .nav-group-icon__right {
@@ -81,6 +87,12 @@
     width: 67px;
     height: 67px;
     color: #cdcdcd;
+    transition: 0.3s transform ease-in-out;
+}
+
+.nav-group-icon__right:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .fa.fa-angel-left {
@@ -162,6 +174,12 @@
     background-color: rgb(125, 177, 34);
     width: 40px;
     height: 40px;
+    transition: 0.3s transform ease-in-out;
+}
+
+.buy__icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .fa.fa-shopping-basket {
