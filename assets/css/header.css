@@ -189,3 +189,30 @@ select {
     color: #656565;
     font-weight: bold;
 }
+
+.main-menu__menu-humb {
+    display: none;
+    width: 40px;
+}
+
+.menu-humb {
+    width:40px;
+}
+  
+  .humb1,
+  .humb2,
+  .humb3 {
+    width:40px;
+    height:6px;
+    background:#555454;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  }
+  
+  .humb1,
+  .humb2 {
+    margin-bottom:6px;    
+  }

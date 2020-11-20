@@ -308,20 +308,106 @@
     text-decoration: none;
 }
 
-@media (max-width: 1400px) {
-    .body {
-        max-width: 970px;
+@media (max-width: 1260px) {
+    .main-menu {
+        flex-wrap: wrap;
+    }
+    .main-menu__logo h1 {
+        margin: 0;
+    }
+    .main-menu__logo,
+    .main-menu__basket {
+        height: 55px;
+        width: calc(100%/2);
+    }
+    .main-menu__menu {
+        order: 3;        
+        margin-left: 0;
+        margin: 0 auto;
+        height: 50px;
     }
 }
 
-@media (max-width: 992px) {
-    .body {
-        max-width: 750px;
+@media (max-width: 900px) {
+    .main-menu {        
+        flex-wrap: nowrap;
+    }
+    .main-menu__menu {
+        display: none;
+    }
+    .main-menu__logo {
+        justify-content: start;
+        padding-left: 10px;
+    }
+    .main-menu__logo h1 {
+        font-size: 2.9em;
+    }
+    .main-menu__logo,
+    .main-menu__basket {
+        flex-grow: 1;
+        width: inherit;
+        height: 100%;
+    }
+    .main-menu__menu-humb {
+        display: flex;
+        align-items: center;
+        order: -1;
+    }
+    .header__main-menu {
+        padding: 0px 10%;
+    }
+    .header__top-menu {
+        display: flex;
+        justify-content: center;
+        padding: 0 10%;
     }
 }
 
-@media (max-width: 767px) {
-    .body {
-        max-width: none;
+@media (max-width: 700px) {
+    .header__top-menu {
+        display: flex;
+        justify-content: space-between;  
+    }
+    .top-menu__default-setting {
+        width: 150px;
+    }
+    .default-setting__currency {
+        padding: 0;
+    }
+    .nav__menu {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 580px) {
+    .nav__menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header__main-menu {
+        padding: 0px 10px 0px 10%;
+    }
+    .main-menu__basket {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search-txt {
+        width: 130px;
+    }
+    .basket__basket-group-icon {
+        margin: 0;
+    }
+    .basket-group-icon__total-cart {
+        margin: 0px 0px 0px 10px;
+    }
+    .cart__icon {
+        left: 41%;
+    }
+}
+
+@media (max-width: 360px) {
+    .nav__menu li {
+        border: none;
     }
 }
