@@ -328,6 +328,14 @@
     }
 }
 
+@media (max-width: 1130px) {
+    .nav-group-icon__left {
+        position: absolute;
+        left: 30px;
+    }
+}
+
+
 @media (max-width: 900px) {
     .main-menu {        
         flex-wrap: nowrap;
@@ -378,6 +386,18 @@
         flex-wrap: wrap;
         margin: 0 auto;
     }
+    .main__banner {
+        display: flex;
+        align-items: inherit;
+        justify-content: center;
+    }
+    .main__banner-title {
+        margin: 40px auto;
+    }
+    .nav-group-icon__right {
+        right: 30px;
+        top: 355px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -403,6 +423,12 @@
     }
     .cart__icon {
         left: 41%;
+    }
+
+    .main__banner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
     }
 }
 
