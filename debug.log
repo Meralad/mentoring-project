@@ -169,3 +169,4 @@
 [1129/131201.607:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\baal1\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\3c867b8a-1806-4ed9-93f1-e226ab8ed65f: Системе не удается найти указанный путь. (0x3)
 [1129/131201.607:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
 [1129/151321.476:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1202/101340.070:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)

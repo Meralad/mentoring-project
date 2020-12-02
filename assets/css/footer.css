@@ -358,12 +358,10 @@
     }
     .top-sector__delivery {
         font-size: 16px;
+        margin-right: 10px;
     }
     .top-sector__delivery-phone {
         font-size: 16px;
-    }
-    .top-sector__delivery {
-        margin-right: 10px;
     }
     .footer__main-sector {
         padding: 50px 70px 60px 70px;   
@@ -525,5 +523,60 @@
     }
     .footer__bottom-sector {
         padding: 0 0 0 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .header__main-menu {
+        padding: 0px 15px 0px 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__top-menu {
+        padding: 0 15px;
+    }
+    .main-menu__logo h1 {
+        font-size: 35px;
+    }
+    .main-menu__menu-humb {
+        width: 35px;
+    }
+    .humb1,
+    .humb2,
+    .humb3 {
+        width: 35px;
+        height: 5px;
+    }
+    .humb1,
+    .humb2 {
+        margin-bottom: 5px;    
+    }
+    .layer1 {
+        font-size: 26px;
+        width: 245px;
+    }
+    .layer2 {
+        font-size: 24px;
+        width: 290px;
+    }
+    .footer__top-sector {
+        padding: 0 20px 0 20px;  
+    }
+    .top-sector-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .fa.fa-truck {
+        font-size: 20px;
+        transform: translate(8px, 10px);
+    }
+    .fa.fa-phone {
+        font-size: 20px;
+        transform: translate(12px, 12px);
+    }
+    li.li {
+        padding: 0 5px;
     }
 }
